@@ -1,3 +1,17 @@
 <resources>
     <string name="app_name">Icehockey Stats</string>
+    <string name="text_home">Home</string>
+    <string name="text_guest">Guest</string>
+    <string name="text_team_home">Rubberducks</string>
+    <string name="text_team_guest">Others</string>
+
+    <string name="text_default_value">0</string>
+
+    <string name="button_text_goal">Goal +</string>
+    <string name="button_text_faceoff">FaceOff +</string>
+    <string name="button_text_penalty">Penalty +</string>
+    <string name="button_text_offside">OffSide +</string>
+    <string name="button_text_shot">Shot +</string>
+    <string name="button_text_shotOnGoal">SOG +</string>
+    <string name="button_text_reset">Reset</string>
 </resources>

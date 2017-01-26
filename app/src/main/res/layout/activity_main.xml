@@ -25,7 +25,7 @@
                 android:layout_height="wrap_content"
                 android:gravity="center"
                 android:padding="8dp"
-                android:text="Home" />
+                android:text="@string/text_home" />
 
             <TextView
                 android:id="@+id/text_team_name_home"
@@ -34,7 +34,7 @@
                 android:layout_height="wrap_content"
                 android:gravity="center"
                 android:padding="8dp"
-                android:text="RubberDucks" />
+                android:text="@string/text_team_home" />
 
             <LinearLayout
                 android:layout_width="match_parent"
@@ -52,7 +52,7 @@
                     android:layout_weight="2"
                     android:gravity="center_vertical"
                     android:onClick="buttonClick"
-                    android:text="Goal +"
+                    android:text="@string/button_text_goal"
                     android:textAlignment="center" />
 
                 <TextView
@@ -62,7 +62,7 @@
                     android:layout_height="match_parent"
                     android:layout_weight="1"
                     android:gravity="center"
-                    android:text="0" />
+                    android:text="@string/text_default_value" />
 
             </LinearLayout>
 
@@ -82,7 +82,7 @@
                     android:layout_weight="2"
                     android:gravity="center_vertical"
                     android:onClick="buttonClick"
-                    android:text="FaceOff +"
+                    android:text="@string/button_text_faceoff"
                     android:textAlignment="center" />
 
                 <TextView
@@ -92,7 +92,7 @@
                     android:layout_height="match_parent"
                     android:layout_weight="1"
                     android:gravity="center"
-                    android:text="0" />
+                    android:text="@string/text_default_value" />
 
             </LinearLayout>
 
@@ -112,7 +112,7 @@
                     android:layout_weight="2"
                     android:gravity="center_vertical"
                     android:onClick="buttonClick"
-                    android:text="Penalty +"
+                    android:text="@string/button_text_penalty"
                     android:textAlignment="center" />
 
                 <TextView
@@ -122,7 +122,7 @@
                     android:layout_height="match_parent"
                     android:layout_weight="1"
                     android:gravity="center"
-                    android:text="0" />
+                    android:text="@string/text_default_value" />
 
             </LinearLayout>
 
@@ -142,7 +142,7 @@
                     android:layout_weight="2"
                     android:gravity="center_vertical"
                     android:onClick="buttonClick"
-                    android:text="OffSide +"
+                    android:text="@string/button_text_offside"
                     android:textAlignment="center" />
 
                 <TextView
@@ -152,7 +152,7 @@
                     android:layout_height="match_parent"
                     android:layout_weight="1"
                     android:gravity="center"
-                    android:text="0" />
+                    android:text="@string/text_default_value" />
 
             </LinearLayout>
 
@@ -172,7 +172,7 @@
                     android:layout_weight="2"
                     android:gravity="center_vertical"
                     android:onClick="buttonClick"
-                    android:text="Shot +"
+                    android:text="@string/button_text_shot"
                     android:textAlignment="center" />
 
                 <TextView
@@ -182,7 +182,7 @@
                     android:layout_height="match_parent"
                     android:layout_weight="1"
                     android:gravity="center"
-                    android:text="0" />
+                    android:text="@string/text_default_value" />
 
             </LinearLayout>
 
@@ -202,7 +202,7 @@
                     android:layout_weight="2"
                     android:gravity="center_vertical"
                     android:onClick="buttonClick"
-                    android:text="SOG +"
+                    android:text="@string/button_text_shotOnGoal"
                     android:textAlignment="center" />
 
                 <TextView
@@ -212,7 +212,7 @@
                     android:layout_height="match_parent"
                     android:layout_weight="1"
                     android:gravity="center"
-                    android:text="0" />
+                    android:text="@string/text_default_value" />
 
             </LinearLayout>
 
@@ -222,7 +222,8 @@
         <View
             android:layout_width="1dp"
             android:layout_height="match_parent"
-            android:background="@android:color/darker_gray"></View>
+            android:background="@android:color/darker_gray">
+        </View>
 
         <LinearLayout
             android:layout_width="0dp"
@@ -237,7 +238,7 @@
                 android:layout_height="wrap_content"
                 android:gravity="center"
                 android:padding="8dp"
-                android:text="Guest" />
+                android:text="@string/text_guest" />
 
             <TextView
                 android:id="@+id/text_team_name_guest"
@@ -246,7 +247,7 @@
                 android:layout_height="wrap_content"
                 android:gravity="center"
                 android:padding="8dp"
-                android:text="Others" />
+                android:text="@string/text_team_guest" />
 
             <LinearLayout
                 android:layout_width="match_parent"
@@ -263,7 +264,7 @@
                     android:layout_height="match_parent"
                     android:layout_weight="1"
                     android:gravity="center"
-                    android:text="0" />
+                    android:text="@string/text_default_value" />
 
                 <Button
                     android:id="@+id/button_goal_guest"
@@ -273,7 +274,7 @@
                     android:layout_weight="2"
                     android:gravity="center_vertical"
                     android:onClick="buttonClick"
-                    android:text="Goal +"
+                    android:text="@string/button_text_goal"
                     android:textAlignment="center" />
 
             </LinearLayout>
@@ -293,7 +294,7 @@
                     android:layout_height="match_parent"
                     android:layout_weight="1"
                     android:gravity="center"
-                    android:text="0" />
+                    android:text="@string/text_default_value" />
 
                 <Button
                     android:id="@+id/button_faceOff_guest"
@@ -303,7 +304,7 @@
                     android:layout_weight="2"
                     android:gravity="center_vertical"
                     android:onClick="buttonClick"
-                    android:text="FaceOff +"
+                    android:text="@string/button_text_faceoff"
                     android:textAlignment="center" />
 
             </LinearLayout>
@@ -323,7 +324,7 @@
                     android:layout_height="match_parent"
                     android:layout_weight="1"
                     android:gravity="center"
-                    android:text="0" />
+                    android:text="@string/text_default_value" />
 
                 <Button
                     android:id="@+id/button_penalty_guest"
@@ -333,7 +334,7 @@
                     android:layout_weight="2"
                     android:gravity="center_vertical"
                     android:onClick="buttonClick"
-                    android:text="Penalty +"
+                    android:text="@string/button_text_penalty"
                     android:textAlignment="center" />
 
             </LinearLayout>
@@ -353,7 +354,7 @@
                     android:layout_height="match_parent"
                     android:layout_weight="1"
                     android:gravity="center"
-                    android:text="0" />
+                    android:text="@string/text_default_value" />
 
                 <Button
                     android:id="@+id/button_offside_guest"
@@ -363,7 +364,7 @@
                     android:layout_weight="2"
                     android:gravity="center_vertical"
                     android:onClick="buttonClick"
-                    android:text="OffSide +"
+                    android:text="@string/button_text_offside"
                     android:textAlignment="center" />
 
             </LinearLayout>
@@ -383,7 +384,7 @@
                     android:layout_height="match_parent"
                     android:layout_weight="1"
                     android:gravity="center"
-                    android:text="0" />
+                    android:text="@string/text_default_value" />
 
                 <Button
                     android:id="@+id/button_shot_guest"
@@ -393,7 +394,7 @@
                     android:layout_weight="2"
                     android:gravity="center_vertical"
                     android:onClick="buttonClick"
-                    android:text="Shot +"
+                    android:text="@string/button_text_shot"
                     android:textAlignment="center" />
 
             </LinearLayout>
@@ -413,7 +414,7 @@
                     android:layout_height="match_parent"
                     android:layout_weight="1"
                     android:gravity="center"
-                    android:text="0" />
+                    android:text="@string/text_default_value" />
 
                 <Button
                     android:id="@+id/button_shotOnGoal_guest"
@@ -423,7 +424,7 @@
                     android:layout_weight="2"
                     android:gravity="center_vertical"
                     android:onClick="buttonClick"
-                    android:text="SOG +"
+                    android:text="@string/button_text_shotOnGoal"
                     android:textAlignment="center" />
 
             </LinearLayout>
@@ -438,5 +439,5 @@
         android:layout_centerHorizontal="true"
         android:layout_marginBottom="8dp"
         android:onClick="buttonClick"
-        android:text="Reset" />
+        android:text="@string/button_text_reset" />
 </RelativeLayout>
