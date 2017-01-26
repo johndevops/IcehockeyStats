@@ -21,8 +21,10 @@ public class MainActivity extends AppCompatActivity {
     int shotsGuest = 0;
     int shotsOnGoalHome = 0;
     int shotsOnGoalGuest = 0;
+
     int increaseNumOne = 1;
     int increasePenaltySmall = 2;
+
     final String teamHome = "home";
     final String teamGuest = "guest";
     final String attributeNameGoal = "goal";
@@ -79,14 +81,59 @@ public class MainActivity extends AppCompatActivity {
             case R.id.button_shotOnGoal_guest:
                 increase(teamGuest, attributeNameShotOnGoal, increaseNumOne);
                 break;
+            case R.id.button_reset:
+                resetValues();
+                resetTextViews();
+                break;
         }
     }
 
     /**
-     * Reset the score of both teams
+     * Reset the values of both teams
      */
-    private void resetScore() {
-
+    private void resetValues() {
+        goalsHome = 0;
+        goalsGuest = 0;
+        faceOffsHome = 0;
+        faceOffsGuest = 0;
+        penaltiesHome = 0;
+        penaltiesGuest = 0;
+        offsidesHome = 0;
+        offsidesGuest = 0;
+        shotsHome = 0;
+        shotsGuest = 0;
+        shotsOnGoalHome = 0;
+        shotsOnGoalGuest = 0;
+    }
+    /**
+     * Reset the views of both teams
+     */
+    private void resetTextViews() {
+        TextView view;
+        view = (TextView) findViewById(R.id.text_goal_home);
+        view.setText(String.valueOf(goalsHome));
+        view = (TextView) findViewById(R.id.text_faceOff_home);
+        view.setText(String.valueOf(faceOffsHome));
+        view = (TextView) findViewById(R.id.text_penalty_home);
+        view.setText(String.valueOf(penaltiesHome));
+        view = (TextView) findViewById(R.id.text_offside_home);
+        view.setText(String.valueOf(offsidesHome));
+        view = (TextView) findViewById(R.id.text_shot_home);
+        view.setText(String.valueOf(shotsHome));
+        view = (TextView) findViewById(R.id.text_shotOnGoal_home);
+        view.setText(String.valueOf(shotsOnGoalHome));
+        view = (TextView) findViewById(R.id.text_goal_guest);
+        view.setText(String.valueOf(goalsGuest));
+        view = (TextView) findViewById(R.id.text_faceOff_guest);
+        view.setText(String.valueOf(faceOffsGuest));
+        view = (TextView) findViewById(R.id.text_penalty_guest);
+        view.setText(String.valueOf(penaltiesGuest));
+        view = (TextView) findViewById(R.id.text_offside_guest);
+        view.setText(String.valueOf(offsidesGuest));
+        view = (TextView) findViewById(R.id.text_shot_guest);
+        view.setText(String.valueOf(shotsGuest));
+        view = (TextView) findViewById(R.id.text_shotOnGoal_guest);
+        view.setText(String.valueOf(shotsOnGoalGuest));
     }
 
     /**
