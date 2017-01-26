@@ -105,6 +105,7 @@ public class MainActivity extends AppCompatActivity {
         shotsOnGoalHome = 0;
         shotsOnGoalGuest = 0;
     }
+
     /**
      * Reset the views of both teams
      */
