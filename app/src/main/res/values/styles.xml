@@ -9,7 +9,7 @@
     </style>
 
     <style name="AppTheme.Large" parent="AppTheme">
-        <item name="android:textSize">32dp</item>
+        <item name="android:textSize">32sp</item>
     </style>
 
     <style name="AppTheme.Home" parent="AppTheme">
@@ -19,7 +19,7 @@
     </style>
 
     <style name="AppTheme.Home.Large" parent="AppTheme.Home">
-        <item name="android:textSize">32dp</item>
+        <item name="android:textSize">32sp</item>
     </style>
 
     <style name="AppTheme.Guest" parent="AppTheme">
@@ -29,7 +29,7 @@
     </style>
 
     <style name="AppTheme.Guest.Large" parent="AppTheme.Guest">
-        <item name="android:textSize">32dp</item>
+        <item name="android:textSize">32sp</item>
     </style>
 
 

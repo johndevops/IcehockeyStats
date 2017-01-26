@@ -5,34 +5,32 @@ import android.support.v7.app.AppCompatActivity;
 import android.view.View;
 import android.widget.TextView;
 
-import org.w3c.dom.Text;
-
 public class MainActivity extends AppCompatActivity {
 
-    int goalsHome = 0;
-    int goalsGuest = 0;
-    int faceOffsHome = 0;
-    int faceOffsGuest = 0;
-    int penaltiesHome = 0;
-    int penaltiesGuest = 0;
-    int offsidesHome = 0;
-    int offsidesGuest = 0;
-    int shotsHome = 0;
-    int shotsGuest = 0;
-    int shotsOnGoalHome = 0;
-    int shotsOnGoalGuest = 0;
+    private int goalsHome = 0;
+    private int goalsGuest = 0;
+    private int faceOffsHome = 0;
+    private int faceOffsGuest = 0;
+    private int penaltiesHome = 0;
+    private int penaltiesGuest = 0;
+    private int offsidesHome = 0;
+    private int offsidesGuest = 0;
+    private int shotsHome = 0;
+    private int shotsGuest = 0;
+    private int shotsOnGoalHome = 0;
+    private int shotsOnGoalGuest = 0;
 
-    int increaseNumOne = 1;
-    int increasePenaltySmall = 2;
+    private final int increaseNumOne = 1;
+    private final int increasePenaltySmall = 2;
 
-    final String teamHome = "home";
-    final String teamGuest = "guest";
-    final String attributeNameGoal = "goal";
-    final String attributeNameFaceOff = "faceoff";
-    final String attributeNamePenalty = "penalty";
-    final String attributeNameOffSide = "offside";
-    final String attributeNameShot = "shot";
-    final String attributeNameShotOnGoal = "shotongoal";
+    private final String teamHome = "home";
+    private final String teamGuest = "guest";
+    private final String attributeNameGoal = "goal";
+    private final String attributeNameFaceOff = "faceoff";
+    private final String attributeNamePenalty = "penalty";
+    private final String attributeNameOffSide = "offside";
+    private final String attributeNameShot = "shot";
+    private final String attributeNameShotOnGoal = "shotongoal";
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
